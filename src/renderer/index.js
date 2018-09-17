@@ -133,7 +133,7 @@ const init = () => {
 
   app.store.dispatch(doUpdateIsNightAsync());
   app.store.dispatch(doDownloadLanguages());
-  app.store.dispatch(doBlackListedOutpointsSubscribe());
+//   app.store.dispatch(doBlackListedOutpointsSubscribe());
 
   function onDaemonReady() {
     window.sessionStorage.setItem('loaded', 'y'); // once we've made it here once per session, we don't need to show splash again
